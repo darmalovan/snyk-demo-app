@@ -17,3 +17,6 @@ patch:
   'npm:uglify-js:20151024':
     - snyk-demo-child > handlebars > uglify-js:
         patched: '2016-09-08T13:09:00.874Z'
+  'npm:uglify-js:20150824':
+    - snyk-demo-child > handlebars > uglify-js:
+        patched: '2016-09-08T13:10:48.185Z'
