@@ -26,7 +26,7 @@
     "bassmaster": "1.5.2",
     "snyk-demo-child": "0.0.1",
     "azure-mgmt-storage": "^0.9.16",
-    "snyk": "^1.18.1"
+    "snyk": "^1.19.1"
   },
   "snyk": true
 }
