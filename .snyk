@@ -1,0 +1,23 @@
+version: v1.5.0
+ignore:
+  'npm:bl:20160119':
+    - falcor-router-demo > pouchdb > levelup > bl:
+        reason: None given
+        expires: '2016-10-21T11:25:56.040Z'
+  'npm:validator:20130705':
+    - azure-mgmt-storage > azure-common > validator:
+        reason: None given
+        expires: '2016-10-21T11:25:56.041Z'
+patch:
+  'npm:handlebars:20151207':
+    - snyk-demo-child > handlebars:
+        patched: '2016-09-21T11:25:56.321Z'
+  'npm:hawk:20160119':
+    - azure-mgmt-storage > azure-common > request > hawk:
+        patched: '2016-09-21T11:25:56.321Z'
+  'npm:request:20160119':
+    - azure-mgmt-storage > azure-common > request:
+        patched: '2016-09-21T11:25:56.321Z'
+  'npm:uglify-js:20151024':
+    - snyk-demo-child > handlebars > uglify-js:
+        patched: '2016-09-21T11:25:56.321Z'
