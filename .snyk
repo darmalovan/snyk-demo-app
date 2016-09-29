@@ -1,0 +1,13 @@
+version: v1.5.0
+ignore:
+  'npm:bl:20160119':
+    - falcor-router-demo > pouchdb > levelup > bl:
+        reason: None given
+        expires: '2016-10-29T07:22:30.783Z'
+patch:
+  'npm:handlebars:20151207':
+    - snyk-demo-child > handlebars:
+        patched: '2016-09-29T07:22:30.961Z'
+  'npm:uglify-js:20151024':
+    - snyk-demo-child > handlebars > uglify-js:
+        patched: '2016-09-29T07:22:30.961Z'
