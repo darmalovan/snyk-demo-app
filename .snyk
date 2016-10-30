@@ -1,0 +1,28 @@
+version: v1.5.0
+ignore:
+  'npm:ws:20160624':
+    - red > ws:
+        reason: None given
+        expires: '2016-11-29T13:20:24.506Z'
+    - red > ws:
+        reason: None given
+        expires: '2016-11-29T13:20:24.508Z'
+  'npm:bl:20160119':
+    - falcor-router-demo > pouchdb > levelup > bl:
+        reason: None given
+        expires: '2016-11-29T13:20:24.507Z'
+  'npm:gmail-js:20160721':
+    - gmail-js:
+        reason: None given
+        expires: '2016-11-29T13:20:24.507Z'
+  'npm:validator:20130705':
+    - azure-mgmt-storage > azure-common > validator:
+        reason: None given
+        expires: '2016-11-29T13:20:24.507Z'
+patch:
+  'npm:hawk:20160119':
+    - azure-mgmt-storage > azure-common > request > hawk:
+        patched: '2016-10-30T13:20:24.568Z'
+  'npm:uglify-js:20151024':
+    - snyk-demo-child > handlebars > uglify-js:
+        patched: '2016-10-30T13:20:24.568Z'
