@@ -17,7 +17,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-  "async": "^2.0.1",
+    "async": "^2.0.1",
     "azure-mgmt-storage": "^0.9.16",
     "bassmaster": "1.5.1",
     "bluebird": "^3.4.1",
