@@ -1,0 +1,12 @@
+version: v1.5.0
+ignore: {}
+patch:
+  'npm:request:20160119':
+    - azure-mgmt-storage > azure-common > request:
+        patched: '2016-11-03T16:13:33.393Z'
+  'npm:uglify-js:20151024':
+    - snyk-demo-child > handlebars > uglify-js:
+        patched: '2016-11-03T16:13:33.393Z'
+  'npm:ws:20160104':
+    - red > ws:
+        patched: '2016-11-03T16:13:33.393Z'
