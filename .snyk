@@ -6,4 +6,32 @@ ignore:
     - falcor-router-demo > pouchdb > levelup > bl:
         reason: None given
         expires: '2017-02-10T12:43:51.052Z'
-patch: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:handlebars:20151207':
+    - snyk-demo-child > handlebars:
+        patched: '2017-05-09T21:31:14.068Z'
+  'npm:hawk:20160119':
+    - azure-mgmt-storage > azure-common > request > hawk:
+        patched: '2017-05-09T21:31:14.068Z'
+  'npm:marked:20170112':
+    - marked:
+        patched: '2017-05-09T21:31:14.068Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2017-05-09T21:31:14.068Z'
+    - gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2017-05-09T21:31:14.068Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2017-05-09T21:31:14.068Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2017-05-09T21:31:14.068Z'
+  'npm:request:20160119':
+    - azure-mgmt-storage > azure-common > request:
+        patched: '2017-05-09T21:31:14.068Z'
+  'npm:uglify-js:20151024':
+    - snyk-demo-child > handlebars > uglify-js:
+        patched: '2017-05-09T21:31:14.068Z'
+  'npm:ws:20160920':
+    - red > ws:
+        patched: '2017-05-09T21:31:14.068Z'
