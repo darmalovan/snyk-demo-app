@@ -1,9 +1,52 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.0
+version: v1.10.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:bl:20160119':
     - falcor-router-demo > pouchdb > levelup > bl:
         reason: None given
         expires: '2017-02-10T12:43:51.052Z'
-patch: {}
+  'npm:http-signature:20150122':
+    - azure-mgmt-storage > azure-common > request > http-signature:
+        reason: No upgrade or patch available
+        expires: '2018-02-17T13:53:34.901Z'
+  'npm:qs:20170213':
+    - azure-mgmt-storage > azure-common > request > qs:
+        reason: No upgrade or patch available
+        expires: '2018-02-17T13:53:34.901Z'
+  'npm:tunnel-agent:20170305':
+    - azure-mgmt-storage > azure-common > request > tunnel-agent:
+        reason: No upgrade or patch available
+        expires: '2018-02-17T13:53:34.901Z'
+  'npm:ws:20160624':
+    - red > ws:
+        reason: No upgrade or patch available
+        expires: '2018-02-17T13:53:34.901Z'
+  'npm:ws:20171108':
+    - red > ws:
+        reason: No upgrade or patch available
+        expires: '2018-02-17T13:53:34.902Z'
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:handlebars:20151207':
+    - snyk-demo-child > handlebars:
+        patched: '2018-01-18T13:53:34.917Z'
+  'npm:hawk:20160119':
+    - azure-mgmt-storage > azure-common > request > hawk:
+        patched: '2018-01-18T13:53:34.917Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-01-18T13:53:34.917Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-01-18T13:53:34.917Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-01-18T13:53:34.917Z'
+  'npm:request:20160119':
+    - azure-mgmt-storage > azure-common > request:
+        patched: '2018-01-18T13:53:34.917Z'
+  'npm:uglify-js:20151024':
+    - snyk-demo-child > handlebars > uglify-js:
+        patched: '2018-01-18T13:53:34.917Z'
+  'npm:ws:20160920':
+    - red > ws:
+        patched: '2018-01-18T13:53:34.917Z'
