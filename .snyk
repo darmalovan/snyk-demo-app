@@ -1,9 +1,30 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.0
+version: v1.12.0
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:bl:20160119':
     - falcor-router-demo > pouchdb > levelup > bl:
         reason: None given
         expires: '2017-02-10T12:43:51.052Z'
-patch: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - falcor-hapi > boom > hoek:
+        patched: '2018-07-24T01:20:04.795Z'
+    - falcor-hapi > joi > hoek:
+        patched: '2018-07-24T01:20:04.795Z'
+    - falcor-hapi > joi > topo > hoek:
+        patched: '2018-07-24T01:20:04.795Z'
+  'npm:http-signature:20150122':
+    - azure-mgmt-storage > azure-common > request > http-signature:
+        patched: '2018-07-24T01:20:04.795Z'
+  'npm:mime:20170907':
+    - azure-mgmt-storage > azure-common > request > form-data > mime:
+        patched: '2018-07-24T01:20:04.795Z'
+    - falcor-router-demo > pouchdb > request > mime:
+        patched: '2018-07-24T01:20:04.795Z'
+    - falcor-router-demo > pouchdb > request > form-data > mime:
+        patched: '2018-07-24T01:20:04.795Z'
+  'npm:tunnel-agent:20170305':
+    - azure-mgmt-storage > azure-common > request > tunnel-agent:
+        patched: '2018-07-24T01:20:04.795Z'
