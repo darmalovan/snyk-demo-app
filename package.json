@@ -16,7 +16,8 @@
   "scripts": {
     "start": "node index.js",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "async": "^2.0.1",
@@ -42,7 +43,7 @@
     "snyk-demo-child": "0.0.1",
     "ws": "1.0.0",
     "yargs": "^4.8.1",
-    "snyk": "^1.23.3"
+    "snyk": "^1.106.1"
   },
   "snyk": true
 }
