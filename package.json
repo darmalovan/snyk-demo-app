@@ -21,11 +21,11 @@
   "dependencies": {
     "async": "^2.0.1",
     "azure-mgmt-storage": "^0.9.16",
-    "bassmaster": "~0.4.0",
+    "bassmaster": "~1.5.2",
     "bluebird": "^3.4.1",
     "cats": "0.0.2",
     "falcor-hapi": "netflix/falcor-hapi",
-    "falcor-router-demo": "1.0.3",
+    "falcor-router-demo": "*",
     "gmail-js": "^0.5.0",
     "grunt": "^1.0.1",
     "gulp": "^3.9.1",
