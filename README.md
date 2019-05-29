@@ -1,5 +1,5 @@
 Snyk Demo App
-===
+===  ds
 
 This is a demo application, not intended for real use.
 It's used as a part of a tutorial for running [snyk](https://snyk.io/), and was initially based on [falcor-hapi-demo](https://github.com/Netflix/falcor-hapi-demo).
