@@ -24,7 +24,6 @@
     "bassmaster": "~0.4.0",
     "bluebird": "^3.4.1",
     "cats": "0.0.2",
-    "falcor-hapi": "netflix/falcor-hapi",
     "falcor-router-demo": "1.0.3",
     "gmail-js": "^0.5.0",
     "grunt": "^1.0.1",
